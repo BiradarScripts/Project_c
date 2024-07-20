@@ -1,13 +1,49 @@
-Assignment: C-- Interpreter Project
+# C-- Interpreter Project
 
-Instructions:
+This project involves creating an interpreter for the C-- programming language. The interpreter is designed to handle variable assignments, arithmetic operations, conditionals, and printing. This README provides a comprehensive guide to understanding, setting up, and running the C-- interpreter.
 
-1)Download the provided header (.h) files: interpreter.h, arithmetic.h, condition.h, print.h, and variable.h. You can modify these files. 
+## Table of Contents
 
-2)Write the missing source (.c) files for each header file to complete the project. You will need to implement the functions defined in the headers.
+1. [Introduction](#introduction)
+2. [Project Structure](#project-structure)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Components](#components)
+    - [Interpreter](#interpreter)
+    - [Arithmetic](#arithmetic)
+    - [Condition](#condition)
+    - [Print](#print)
+    - [Variable](#variable)
+7. [Testing](#testing)
+8. [Contribution](#contribution)
+9. [License](#license)
 
-3)Use the provided main.c file as the entry point for your program. It already contains a sample C-- code that you should be able to execute correctly once your interpreter is complete.
+## Introduction
 
-4)Test your interpreter thoroughly with different C-- code snippets to ensure it handles variable assignment, arithmetic operations, conditionals, and printing as described in the provided C-- code.
+The C-- Interpreter Project is an educational project designed to demonstrate how an interpreter works. It executes a simplified version of the C programming language, called C--. The interpreter processes the code, executes operations, evaluates conditions, and manages variables.
 
-5)Submit the complete project, including all source (.c) and header (.h) files, as a compressed archive (e.g., .zip or .tar.gz).
+## Project Structure
+
+The project consists of the following files:
+
+- `main.c` - Entry point for the program.
+- `interpreter.h` / `interpreter.c` - Handles the overall interpretation process.
+- `arithmetic.h` / `arithmetic.c` - Manages arithmetic operations.
+- `condition.h` / `condition.c` - Manages conditional operations.
+- `print.h` / `print.c` - Handles the print functionality.
+- `variable.h` / `variable.c` - Manages variable assignments and retrieval.
+
+## Requirements
+
+To build and run the C-- interpreter, you will need:
+
+- A C compiler (e.g., GCC)
+- Make (optional, for easy building)
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/c--interpreter.git
+   cd c--interpreter
